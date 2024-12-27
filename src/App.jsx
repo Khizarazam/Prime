@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import LocomotiveScroll from "locomotive-scroll";
 import "locomotive-scroll/dist/locomotive-scroll.css";
-// import './Components/LocoStyle.css'
+import './Components/LocoStyle.css'
 import gsap from "gsap";
 
 const App = () => {

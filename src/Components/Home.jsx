@@ -137,19 +137,19 @@ const Home = () => {
       },
     });
     gsap.from("#div3", {
-      opacity: 0,
-      duration: 5,
+      scale: 0,
+      duration: 10,
       delay: 1,
       scrollTrigger: {
         trigger: "#div3",
-        start: "top 50%",
-        end: "bottom 50%",
+        start: "top 80%",
+        end: "bottom 80%",
         scrub: 2,
         onEnter: () => {
-          gsap.to("#div3", { opacity: 1, duration: 2 });
+          gsap.to("#div3", { scale: 1, duration: 2 });
         },
         onLeaveBack: () => {
-          gsap.to("#div3", { opacity: 0, duration: 2 });
+          gsap.to("#div3", { scale: 0, duration: 2 });
         },
       },
     });

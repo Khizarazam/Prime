@@ -1,0 +1,18 @@
+// import { Canvas } from "@react-three/fiber";
+// import { OrbitControls } from "@react-three/drei";
+// import { EffectComposer, Bloom } from "@react-three/postprocessing";
+// import Scene from "./Scene";
+
+{
+  /* <div className="w-[50%] bg-blue-500 h-[100vh]">
+  <Canvas flat camera={{ fov: 60 }}>
+    <OrbitControls />
+    <ambientLight position={[4, 4, 4]} intensity={2} />
+    <pointLight position={[0, 0, 0]} intensity={2} color="#fff" />
+    <Scene />
+    <EffectComposer>
+      <Bloom mipmapBlur intensity={1} radius={0.4} />
+    </EffectComposer>
+  </Canvas>
+</div> */
+}

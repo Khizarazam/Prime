@@ -1,0 +1,13 @@
+/* For Webkit-based browsers like Chrome */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #a4a3a3;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #686868;
+  }
